@@ -5,9 +5,14 @@
    Profile
    ========================================================================== */
 
-.profile-header-photo { height: 245px; margin: -27px -15px 20px; background: #232936 no-repeat 50% 50%; background-size: cover; position: relative; color: #fff;
+.profile-header-photo { height: 160px; margin: -27px -15px 20px; background: #232936 no-repeat 50% 50%; background-size: cover; position: relative; color: #fff;
    .profile-header-photo-in { display: table; width: 100%; height: 100%; border-collapse: collapse;
       >.tbl-cell { vertical-align: bottom; }
+   }
+
+   @media (max-width: @md-max-width) {
+      margin-left: 0;
+      margin-right: 0;
    }
 
    .change-cover { position: absolute; right: 30px; top: 20px; .a_colored(#fff, @color-blue); background: fade(#000, 40%); font-size: .875rem; padding: 6px 8px; border-radius: 3px; overflow: hidden;
@@ -18,10 +23,28 @@
    .info-block { padding: 0 15px; }
 
    .info-tbl {
-      p { margin: 0; }
+      p { margin: 0;
+
+      }
+      .count{
+          @media (max-width: 560px) {
+             font-size:0.85em;
+          }
+          @media (max-width: 470px) {
+             font-size:0.75em;
+          }
+      }
       .tbl-cell { vertical-align: bottom; padding: 15px 0; }
       .tbl-cell-stat { width: 15%; text-align: right; }
-      .title { font-size: 1.5rem; font-weight: 600; }
+      .maintitle{font-size: 1.5rem; font-weight: 600;}
+      .title { font-size: 1.5rem; font-weight: 600;
+          @media (max-width: 560px) {
+             font-size:1.4rem;
+          }
+          @media (max-width: 470px) {
+             font-size:1.3rem;
+          }
+      }
       .inline-block { display: inline-block; text-align: center; }
    }
 
@@ -194,5 +217,3 @@
       .range-setting-actions { right: 0; }
    }
 }
-
-

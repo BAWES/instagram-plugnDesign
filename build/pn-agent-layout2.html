@@ -135,7 +135,7 @@
 	</nav><!--.side-menu-->
 
 	<div class="page-content">
-		<div class="profile-header-photo" style='height:160px !important'>
+		<div class="profile-header-photo">
 			<div class="profile-header-photo-in">
 				<div class="tbl-cell">
 					<div class="info-block">
@@ -145,25 +145,25 @@
 									<div class="tbl info-tbl">
 										<div class="tbl-row">
 											<div class="tbl-cell">
-												<p class="title">Khalid Al-Mutawa</p>
+												<p class="maintitle">Khalid Al-Mutawa</p>
 												<p>@khalidmnet</p>
 											</div>
 											<div class="tbl-cell tbl-cell-stat">
 												<div class="inline-block">
 													<p class="title">230</p>
-													<p>Media</p>
+													<p class="count">Media</p>
 												</div>
 											</div>
 											<div class="tbl-cell tbl-cell-stat">
 												<div class="inline-block">
 													<p class="title">938</p>
-													<p>Following</p>
+													<p class="count">Following</p>
 												</div>
 											</div>
 											<div class="tbl-cell tbl-cell-stat">
 												<div class="inline-block">
 													<p class="title">73k</p>
-													<p>Followers</p>
+													<p class="count">Followers</p>
 												</div>
 											</div>
 										</div>
@@ -180,27 +180,45 @@
 			</a>
 		</div><!--.profile-header-photo-->
 
+
 		<div class="container-fluid">
-			<div class="box-typical box-typical-full-height">
-				<div class="add-customers-screen tbl">
-					<div class="add-customers-screen-in">
 
-						<div class="add-customers-screen-user">
-							<i class="font-icon font-icon-user"></i>
-						</div>
+			<section class="tabs-section">
+				<div class="tabs-section-nav tabs-section-nav-inline">
+					<ul class="nav" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" href="#conversationView" role="tab" data-toggle="tab">
+								Conversation View
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#mediaView" role="tab" data-toggle="tab">
+								Media View
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#statistics" role="tab" data-toggle="tab">
+								Statistics
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#agentActivity" role="tab" data-toggle="tab">
+								Agent Activity
+							</a>
+						</li>
+					</ul>
+				</div><!--.tabs-section-nav-->
 
-						<h2>Manage Instagram Comments</h2>
-						<p class="lead color-blue-grey-lighter">Once an account owner adds you as an agent,<br/> you'll be able to manage the accounts comments.</p>
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane fade in active" id="conversationView">
+						Conversation View Content Here
+					</div><!--.tab-pane-->
+				</div><!--.tab-content-->
+			</section><!--.tabs-section-->
 
-						<a href="#" class="btn btn-inline btn-primary ladda-button" data-style="expand-left">
-							<span class="ladda-label">Login with Instagram</span>
-						</a>
-
-						<p class="m-t-md color-blue-grey-lighter">Note: You'll be automatically logged in if you're already logged in on <a href='http://instagram.com' target='_blank'>Instagram.com</a></p>
-					</div>
-				</div>
-			</div><!--.box-typical-->
 		</div><!--.container-fluid-->
+
+
 	</div><!--.page-content-->
 
 	<script src="js/lib/jquery/jquery.min.js"></script>
