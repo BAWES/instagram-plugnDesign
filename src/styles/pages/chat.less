@@ -18,6 +18,7 @@
 .chat-area-in { margin-left: 300px; border-left: solid 1px @color-border-light; }
 @media (max-width: @sm-max-width) {
    .chat-list { float: none; width: auto; }
+   .chat-list-agent { float: none; width: auto; }
    .chat-area { float: none; width: auto; margin-left: 0; }
    .chat-area-in { margin-left: 0; border-left: none; }
 }
@@ -55,10 +56,11 @@
 
    // Hover, selected
    .chat-list &:hover, &.selected { background-color: @color-bg-grey; }
+   .chat-list-agent &:hover, &.selected { background-color: @color-bg-grey; }
 }
 
 @media (max-width: @sm-max-width) {
-   .chat-list-in { height: 200px !important; border-bottom: solid 1px @color-border-light; }
+   .chat-list-in { height: 300px !important; border-bottom: solid 1px @color-border-light; }
 }
 
 // Dialog area
@@ -119,5 +121,3 @@
    .caption { font-size: 1.25rem; font-weight: 600; margin: 0 0 .5rem 0; }
    .txt { color: @color-grey-blue-lighter-txt; max-width: 340px; margin: 0 auto; }
 }
-
-
