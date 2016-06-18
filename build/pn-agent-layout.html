@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>StartUI - Premium Bootstrap 4 Admin Dashboard Template</title>
+	<title>Plugn - Instagram Comment Management</title>
 
 	<link href="img/favicon.144x144.png" rel="apple-touch-icon" type="image/png" sizes="144x144">
 	<link href="img/favicon.114x114.png" rel="apple-touch-icon" type="image/png" sizes="114x114">
@@ -18,7 +18,12 @@
 	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
+    <!-- For AWesome Fonts -->
     <link rel="stylesheet" href="css/lib/font-awesome/font-awesome.min.css">
+    <!-- For Buttons with Loader -->
+    <link rel="stylesheet" href="css/lib/ladda-button/ladda-themeless.min.css">
+
+
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body class="with-side-menu">
@@ -100,7 +105,6 @@
 	            <a href="#" class="label-right">
 	                <img src='img/instagram-account/account2.jpg' width=32 height=32 style='width:32px; height:32px; margin-bottom:5px;'/>
 	                <span class="lbl">@bawestech</span>
-	                <span class="label label-custom label-pill label-success"><i style='font-size:1em; color:white;' class="icon fa fa-check"></i></span>
 	            </a>
 	        </li>
 	        <li>
@@ -140,7 +144,19 @@
 						</div>
 						<h2>Manage Instagram Comments</h2>
 						<p class="lead color-blue-grey-lighter">Once an account owner adds you as an agent,<br/> you'll be able to manage the accounts comments.</p>
-						<a href="#" class="btn">Add Instagram Account</a>
+						<a href="#" class="btn btn-inline btn-primary ladda-button" data-style="expand-left">
+							<span class="ladda-label">
+							Login with Instagram
+							</span><span class="ladda-spinner"></span><div class="ladda-progress" style="width: 0px;"></div></button>
+						</a>
+
+						<button class="btn btn-inline btn-primary ladda-button" data-style="expand-left">
+							<span class="ladda-label">expand-left</span>
+							<span class="ladda-spinner"></span>
+							<div class="ladda-progress" style="width: 0px;"></div>
+						</button>
+
+						<p class="m-t-md color-blue-grey-lighter">Note: You'll be automatically logged in if you're logged in on <a href='http://instagram.com' target='_blank'>Instagram.com</a></p>
 					</div>
 				</div>
 			</div><!--.box-typical-->
