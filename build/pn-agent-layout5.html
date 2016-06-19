@@ -18,6 +18,9 @@
 	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
+
+<link rel="stylesheet" href="css/lib/datatables-net/datatables.min.css">
+
     <!-- For AWesome Fonts -->
     <link rel="stylesheet" href="css/lib/font-awesome/font-awesome.min.css">
 
@@ -211,7 +214,37 @@
 
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane fade in active">
-						Agent Activity Content Here
+
+						<table id="mytable" class="display table table-bordered" cellspacing="0" width="100%">
+							<thead>
+							<tr>
+								<th>When?</th>
+								<th>Who?</th>
+								<th>What?</th>
+							</tr>
+							</thead>
+							<!--<tfoot>
+							<tr>
+								<th>When?</th>
+								<th>Who?</th>
+								<th>What?</th>
+							</tr>
+							</tfoot> -->
+							<tbody>
+								<tr>
+									<td>6 days ago</td>
+									<td>The BAWES</td>
+									<td>Marked all comments on media #218 as handled</td>
+								</tr>
+								<tr>
+									<td>7 days ago</td>
+									<td>The BAWES</td>
+									<td>Marked the conversation with @studenthubco as handled</td>
+								</tr>
+							</tbody>
+						</table>
+
+
 					</div><!--.tab-pane-->
 				</div><!--.tab-content-->
 			</section><!--.tabs-section-->
@@ -227,6 +260,15 @@
 	<script src="js/plugins.js"></script>
 	
 	<!-- JS and other shit -->
+
+	<script src="js/lib/datatables-net/datatables.min.js"></script>
+	<script>
+		$(function() {
+			$('#mytable').DataTable({
+				responsive: true
+			});
+		});
+	</script>
 
 <script src="js/app.js"></script>
 </body>

@@ -1,4 +1,7 @@
 //= template/pn-agent-head.html
+
+<link rel="stylesheet" href="css/lib/datatables-net/datatables.min.css">
+
 //= template/pn-agent-head-end.html
 <body class="with-side-menu">
 
@@ -83,7 +86,37 @@
 
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane fade in active">
-						Agent Activity Content Here
+
+						<table id="mytable" class="display table table-bordered" cellspacing="0" width="100%">
+							<thead>
+							<tr>
+								<th>When?</th>
+								<th>Who?</th>
+								<th>What?</th>
+							</tr>
+							</thead>
+							<!--<tfoot>
+							<tr>
+								<th>When?</th>
+								<th>Who?</th>
+								<th>What?</th>
+							</tr>
+							</tfoot> -->
+							<tbody>
+								<tr>
+									<td>6 days ago</td>
+									<td>The BAWES</td>
+									<td>Marked all comments on media #218 as handled</td>
+								</tr>
+								<tr>
+									<td>7 days ago</td>
+									<td>The BAWES</td>
+									<td>Marked the conversation with @studenthubco as handled</td>
+								</tr>
+							</tbody>
+						</table>
+
+
 					</div><!--.tab-pane-->
 				</div><!--.tab-content-->
 			</section><!--.tabs-section-->
@@ -94,5 +127,14 @@
 	</div><!--.page-content-->
 
 	//= template/pn-agent-footer.html
+
+	<script src="js/lib/datatables-net/datatables.min.js"></script>
+	<script>
+		$(function() {
+			$('#mytable').DataTable({
+				responsive: true
+			});
+		});
+	</script>
 
 //= template/foot.html
