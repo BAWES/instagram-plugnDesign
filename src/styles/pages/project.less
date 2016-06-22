@@ -166,7 +166,9 @@
    }
 
    &.selected { background-color: @color-bg-grey; }
-   &.pending-deletion { background-color: @color-bg-light-red; }
+   &.pending-deletion { background-color: @color-bg-light-red;
+       p{text-decoration: line-through;}
+   }
 
    .hover-action & {
       .comment-row-item-action { display: none; }
