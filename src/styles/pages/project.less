@@ -166,8 +166,12 @@
    }
 
    &.selected { background-color: @color-bg-grey; }
-   &.pending-deletion { background-color: @color-bg-light-red;
+   &.queued { background-color: lightyellow;
+       .que{color:grey;}
+   }
+   &.deleted { background-color: @color-bg-light-red;
        p{text-decoration: line-through;}
+       .que{color:darkred;}
    }
 
    .hover-action & {
