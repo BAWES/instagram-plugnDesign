@@ -1,7 +1,7 @@
     <mj-body width="700" background-color="#eceff4">
             <mj-section padding-top="10" padding-bottom="10">
                 <mj-column width="270">
-                    <mj-image src="img/logo.png" />
+                    <mj-image src="img/logo-trans.png" width="180"/>
                 </mj-column>
             </mj-section>
             <mj-section background-color="#d8e2e7" padding="1">

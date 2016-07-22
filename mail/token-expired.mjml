@@ -5,14 +5,13 @@
         <!-- Header -->
           <mj-section padding-bottom="0" padding-top="10" background-color="white">
             <mj-column width="270">
-              <mj-image src="img/logo.png" />
-              <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0" padding-left="0" padding-right="0" border-width="1px" border-color="#f8f8f8" />
+              <mj-image src="img/logo-trans.png" width="180"/>
             </mj-column>
           </mj-section>
 
           <mj-section padding-bottom="0" background-color="#fcfcfc">
             <mj-column width="100%">
-              <mj-text align="center" font-size="20" color="grey" font-family="Helvetica Neue" font-weight="200">
+              <mj-text align="center" font-size="20" color="black" font-family="Helvetica Neue" font-weight="200">
                 There's a slight problem connecting to your Instagram account on Plugn
               </mj-text>
               <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0" padding-left="0" padding-right="0" border-width="1px" border-color="#f8f8f8" />
@@ -38,7 +37,7 @@
               </mj-text>
             </mj-column>
             <mj-column width="350">
-              <mj-text align="left" font-size="20" color="grey">
+              <mj-text align="left" font-size="20" color="#333">
                 Don't worry though, it's very quick to fix
               </mj-text>
               <mj-text align="left" color="grey">
