@@ -263,8 +263,8 @@ textarea.form-control { resize: none; height: auto; }
 }
 
 // Detailed
-.checkbox-detailed { display: inline-block; vertical-align: top; margin: 0 12px 12px 0;
-   input + label { width: 200px; height: 84px; border: solid 1px @color-border-light; border-radius: 5px; padding: 0 10px 0 50px; line-height: 1.4;
+.checkbox-detailed { display: block; /*inline-block;*/ vertical-align: top; margin: 0 12px 12px 0;
+   input + label { width:100%; /*200px;*/ height: 84px; border: solid 1px @color-border-light; border-radius: 5px; padding: 0 10px 0 50px; line-height: 1.4;
       &:before { content: ''; display: block; width: 12px; height: 12px; border: solid 1px @color-border; position: absolute; left: 19px; top: 50%; margin-top: -6px; border-radius: 50%; }
    }
    input:checked + label { background-color: @color-bg-light-blue; border-color: @color-blue;
@@ -486,5 +486,3 @@ textarea.form-control { resize: none; height: auto; }
 }
 .typeahead-dropdown>li>a, .typeahead-list>li>a { padding: 3px .75rem; font-size: .9375rem; }
 var.result-container { font-size: .9375rem; }
-
-
