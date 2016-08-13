@@ -4,89 +4,98 @@
 
         <!-- Header -->
           <mj-section padding-bottom="0" padding-top="10" background-color="white">
-            <mj-column width="270">
-              <mj-image src="img/logo-trans.png" width="180"/>
+            <mj-column>
+              <mj-image href="http://plugn.io" src="img/logo-trans.png" width="180"/>
             </mj-column>
           </mj-section>
 
           <mj-section padding-bottom="0" background-color="#fcfcfc">
             <mj-column width="100%">
               <mj-text align="center" font-size="24" color="black" font-family="Helvetica Neue" font-weight="200">
-                Khalid Al-Mutawa - @khalidmnet
+                You have 129 New Comments on @khalidmnet
               </mj-text>
-              <mj-text align="center" font-size="20" color="black" font-family="Helvetica Neue" font-weight="200">
-                You have 129 Unhandled Comments
-              </mj-text>
+              <mj-button background-color="#00a8ff"
+                  color="white"
+                  font-size="15"
+                  border="none"
+                  align="center"
+                  padding="8px 16px 10px"
+                  font-weight="400"
+                  font-family="Proxima Nova, Arial, Arial, Helvetica, sans-serif"
+                  href="http://agent.plugn.io">
+                  View and Handle Comments
+              </mj-button>
               <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0" padding-left="0" padding-right="0" border-width="1px" border-color="#f8f8f8" />
             </mj-column>
           </mj-section>
 
           <!-- Article -->
           <mj-section background-color="white">
-            <mj-column width="130">
-              <mj-image src="https://igcdn-photos-d-a.akamaihd.net/hphotos-ak-xat1/t51.2885-19/s150x150/11324470_1661109434103747_1117437363_a.jpg"
-                  width="110"
-                  href="#instagramAcc" />
-              <mj-text font-size="15"
-                  padding="0 30px 20px"
-                  font-weight="700"
-                  align="center"
-                  font-family="Proxima Nova, Arial, Arial, Helvetica, sans-serif">
-                  <span style="display: inline-block; text-align: center; min-width: 110px;">
-                      <a href="#instagramAcc" style="text-decoration: none; color: inherit;">
-                          <span style="color: #0081c3;">@bawestech</span>
-                      </a>
-                  </span>
+            <mj-column>
+              <mj-text align="left" font-size="20" color="#333" padding-bottom="0">
+                Recent Comments
+              </mj-text>
+              <mj-list align="left" color="grey">
+                  <li>commenttexthere</li>
+                  <li>commenttexthere</li>
+                  <li>commenttexthere</li>
+                  <li>commenttexthere</li>
+                  <li><a href="http://agent.plugn.io" style="text-decoration: none; color: inherit;">
+                    more on <span style="border-bottom: solid 1px #b3bac1">Plugn.io</span>
+                    </a>
+                    </li>
               </mj-text>
             </mj-column>
-            <mj-column width="350">
-              <mj-text align="left" font-size="20" color="#333">
-                You can now manage their Instagram account
+
+            <mj-column>
+              <mj-text align="left" font-size="20" color="#333" padding-bottom="0">
+                Recent Agent Activity
               </mj-text>
-              <mj-text align="left" color="grey">
-                Log into your Plugn Agent account and never lose a comment again!
+              <mj-list align="left" color="grey">
+                  <li>activitytexthere</li>
+                  <li>activitytexthere</li>
+                  <li>activitytexthere</li>
+                  <li>activitytexthere</li>
+                  <li><a href="http://agent.plugn.io" style="text-decoration: none; color: inherit;">
+                    more on <span style="border-bottom: solid 1px #b3bac1">Plugn.io</span>
+                    </a>
+                    </li>
               </mj-text>
-              <mj-text align="left" color="grey">
-                Last 5 Comments [with profile photos]
-              </mj-text>
-              <mj-text align="left" color="grey">
-                Last 5 activities on this account by all agents
-              </mj-text>
-              <mj-button background-color="#00a8ff"
-                  color="white"
-                  font-size="15"
-                  border="none"
-                  align="left"
-                  padding="8px 16px 10px"
-                  paddint-top="0"
-                  padding-left="30"
-                  padding-right="30"
-                  padding-bottom="25"
-                  font-weight="400"
-                  font-family="Proxima Nova, Arial, Arial, Helvetica, sans-serif"
-                  href="#login">
-                  Get Started
-              </mj-button>
             </mj-column>
           </mj-section>
 
 
 
-            <mj-section padding="20px 0 0">
-                <mj-column>
-                    <mj-text padding="0"
-                        font-size="15"
-                        color="#6b7a85"
-                        align="center"
-                        font-family="Proxima Nova, Arial, Arial, Helvetica, sans-serif">
-                        A
-                        <a href="http://bawes.net" style="text-decoration: none; color: inherit;">
-                            <span style="border-bottom: solid 1px #b3bac1">BAWES - Built Awesome</span>
-                        </a>
-                        Product.
-                    </mj-text>
-                </mj-column>
-            </mj-section>
+          <mj-section padding="20px 0 0">
+              <mj-column>
+                  <mj-text padding="0"
+                      font-size="14"
+                      color="#6b7a85"
+                      align="center"
+                      font-family="Proxima Nova, Arial, Arial, Helvetica, sans-serif">
+                      Don't like these emails?
+                      <a href="#unsubscribe" style="text-decoration: none; color: inherit;">
+                          <span style="border-bottom: solid 1px #b3bac1">Unsubscribe</span>
+                      </a>
+                  </mj-text>
+              </mj-column>
+          </mj-section>
+
+          <mj-section padding="20px 0 0">
+              <mj-column>
+                  <mj-text padding="0"
+                      font-size="12"
+                      color="#6b7a85"
+                      align="center"
+                      font-family="Proxima Nova, Arial, Arial, Helvetica, sans-serif">
+                      A
+                      <a href="http://bawes.net" style="text-decoration: none; color: inherit;">
+                          <span style="border-bottom: solid 1px #b3bac1">BAWES - Built Awesome</span>
+                      </a>
+                      Product.
+                  </mj-text>
+              </mj-column>
+          </mj-section>
 
 
             <mj-section padding-top="0" padding-bottom="24">
