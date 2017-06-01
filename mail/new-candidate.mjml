@@ -1,0 +1,119 @@
+<mjml>
+    <mj-body>
+        <mj-container width="700" background-color="#4354a5">
+            <mj-section padding-top="0" padding-bottom="0">
+                <mj-column width="220">
+                    <mj-image src="img/studenthub-logo.png" width="180"/>
+                </mj-column>
+            </mj-section>
+            <mj-section background-color="#d8e2e7" padding="1">
+                <mj-column background-color="white">
+                    <mj-text font-size="17"
+                        padding-top="30"
+                        font-family="Proxima Nova, Arial, Arial, Helvetica, sans-serif">
+                        Hi Jasem,
+                    </mj-text>
+
+                    <mj-text font-size="21"
+                        padding-top="0"
+                        font-weight="bold"
+                        font-family="Proxima Nova, Arial, Arial, Helvetica, sans-serif">
+                        Welcome to the Studenhub Internship Program!
+                    </mj-text>
+
+
+                    <mj-text font-size="15"
+                        padding-top="0"
+                        padding-bottom="15"
+                        font-family="Proxima Nova, Arial, Arial, Helvetica, sans-serif">
+                        As a university student, this is the best way to gain work experience.
+                        You'll soon be assigned to work at a partner company for your paid internship.
+                    </mj-text>
+
+                    <mj-text font-size="15"
+                        padding-top="0"
+                        padding-bottom="15"
+                        font-family="Proxima Nova, Arial, Arial, Helvetica, sans-serif">
+                        You may login to your account for updates on where you are assigned to work along
+                        with updates on payment transfers.
+                    </mj-text>
+
+                    <mj-text font-size="15"
+                        padding="0 30px 30px 30px"
+                        font-family="Proxima Nova, Arial, Arial, Helvetica, sans-serif">
+                        — Studenthub Team
+                    </mj-text>
+
+                    <mj-text font-size="15"
+                        align="center"
+                        padding="0"
+                        font-family="Proxima Nova, Arial, Arial, Helvetica, sans-serif">
+                        Your Email
+                    </mj-text>
+                    <mj-text font-size="15"
+                        align="center"
+                        font-weight="700"
+                        padding="10px 30px 20px"
+                        font-family="Proxima Nova, Arial, Arial, Helvetica, sans-serif">
+                        <span style="border: solid 1px #dbe4e9; border-radius: 4px; padding: 8px 16px 10px;">
+                            candidate@candidate.com
+                        </span>
+                    </mj-text>
+
+                    <mj-text font-size="15"
+                        align="center"
+                        padding="0"
+                        font-family="Proxima Nova, Arial, Arial, Helvetica, sans-serif">
+                        Your Account Password
+                    </mj-text>
+                    <mj-text font-size="15"
+                        align="center"
+                        font-weight="700"
+                        padding="10px 30px 20px"
+                        font-family="Proxima Nova, Arial, Arial, Helvetica, sans-serif">
+                        <span style="border: solid 1px #dbe4e9; border-radius: 4px; padding: 8px 16px 10px;">
+                            Vj3dwW
+                        </span>
+                    </mj-text>
+
+                    <mj-button background-color="#00a8ff"
+                        color="white"
+                        font-size="18"
+                        font-weight="bold"
+                        border="none"
+                        border-radius="5"
+                        align="center"
+                        padding="8px 16px 10px"
+                        padding-top="0"
+                        padding-left="30"
+                        padding-right="30"
+                        padding-bottom="16"
+                        font-weight="400"
+                        font-family="Proxima Nova, Arial, Arial, Helvetica, sans-serif"
+                        href="https://intern.studenthub.co">
+                        Login to your account
+                    </mj-button>
+
+                </mj-column>
+            </mj-section>
+            <mj-section padding="20px 0 0">
+                <mj-column>
+                    <mj-text padding="0"
+                        font-size="14"
+                        color="#eee"
+                        align="center"
+                        font-family="Proxima Nova, Arial, Arial, Helvetica, sans-serif">
+                        A
+                        <a href="http://bawes.net" style="text-decoration: none; color: inherit;">
+                            <span style="border-bottom: solid 1px #b3bac1">BAWES - Built Awesome</span>
+                        </a>
+                        Project.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section padding-top="0" padding-bottom="24">
+            </mj-section>
+
+        </mj-container>
+    </mj-body>
+</mjml>
