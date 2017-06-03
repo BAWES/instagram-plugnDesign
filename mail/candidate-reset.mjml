@@ -9,71 +9,36 @@
             <mj-section background-color="#d8e2e7" padding="1">
                 <mj-column background-color="white">
                     <mj-text font-size="17"
+                        align="center"
                         padding-top="30"
                         font-family="Proxima Nova, Arial, Arial, Helvetica, sans-serif">
                         Hi Jasem,
                     </mj-text>
 
-                    <mj-text font-size="21"
+                    <mj-text font-size="19"
                         padding-top="0"
+                        align="center"
                         font-weight="bold"
                         font-family="Proxima Nova, Arial, Arial, Helvetica, sans-serif">
-                        Welcome to the Studenhub Internship Program!
+                        Your password has been reset, the following is your new password
                     </mj-text>
 
-
-                    <mj-text font-size="15"
-                        padding-top="0"
-                        padding-bottom="15"
-                        font-family="Proxima Nova, Arial, Arial, Helvetica, sans-serif">
-                        As a university student, this is the best way to gain work experience.
-                        You'll soon be assigned to work at a partner company for your paid internship.
-                    </mj-text>
-
-                    <mj-text font-size="15"
-                        padding-top="0"
-                        padding-bottom="15"
-                        font-family="Proxima Nova, Arial, Arial, Helvetica, sans-serif">
-                        You may login to your account for updates on where you are assigned to work along
-                        with updates on payment transfers.
-                    </mj-text>
-
-                    <mj-text font-size="15"
-                        padding="0 30px 30px 30px"
-                        font-family="Proxima Nova, Arial, Arial, Helvetica, sans-serif">
-                        — Studenthub Team
-                    </mj-text>
-
-                    <mj-text font-size="15"
-                        align="center"
-                        padding="0"
-                        font-family="Proxima Nova, Arial, Arial, Helvetica, sans-serif">
-                        Your Email
-                    </mj-text>
-                    <mj-text font-size="15"
+                    <mj-text font-size="24"
                         align="center"
                         font-weight="700"
-                        padding="10px 30px 20px"
+                        padding="15px 30px 20px"
                         font-family="Proxima Nova, Arial, Arial, Helvetica, sans-serif">
                         <span style="border: solid 1px #dbe4e9; border-radius: 4px; padding: 8px 16px 10px;">
-                            candidate@candidate.com
+                            9Ac9c-mks3
                         </span>
                     </mj-text>
 
                     <mj-text font-size="15"
                         align="center"
-                        padding="0"
+                        padding-top="0"
+                        padding-bottom="15"
                         font-family="Proxima Nova, Arial, Arial, Helvetica, sans-serif">
-                        Your Account Password
-                    </mj-text>
-                    <mj-text font-size="15"
-                        align="center"
-                        font-weight="700"
-                        padding="10px 30px 20px"
-                        font-family="Proxima Nova, Arial, Arial, Helvetica, sans-serif">
-                        <span style="border: solid 1px #dbe4e9; border-radius: 4px; padding: 8px 16px 10px;">
-                            Vj3dwW
-                        </span>
+                        You may change your password after login.
                     </mj-text>
 
                     <mj-button background-color="#00a8ff"
